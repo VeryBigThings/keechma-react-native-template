@@ -1,8 +1,8 @@
-(ns app.navigators.main
+(ns app.ui.navigators.main
   (:require [app.libs.navigation :refer [create-stack-navigator screen navigator]]
             [app.libs.helix :refer [defnc $]]
-            [app.screens.home :refer [Home]]
-            [app.screens.settings :refer [Settings]]))
+            [app.ui.screens.home :refer [Home]]
+            [app.ui.screens.settings :refer [Settings]]))
 
 (def app-stack (create-stack-navigator))
 

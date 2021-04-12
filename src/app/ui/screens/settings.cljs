@@ -1,4 +1,4 @@
-(ns app.screens.settings
+(ns app.ui.screens.settings
   (:require ["react-native" :refer [Text View]]
             [app.libs.helix :refer [$ defnc]]
             [keechma.next.helix.core :refer [with-keechma]]))

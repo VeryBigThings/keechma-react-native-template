@@ -1,4 +1,4 @@
-(ns app.components.buttons
+(ns app.ui.components.buttons
   (:require  ["react-native" :as rn :refer [Text ActivityIndicator]]
              ["react-native-gesture-handler" :refer [RectButton]]
              [app.libs.helix :refer [defnc $]]))

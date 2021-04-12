@@ -1,6 +1,5 @@
 (ns app.main
-  (:require ["react" :as react]
-            ["react-native-safe-area-context" :refer [SafeAreaProvider]]
+  (:require ["react-native-safe-area-context" :refer [SafeAreaProvider]]
             ["@react-navigation/native" :refer [NavigationContainer]]
             [shadow.react-native :refer (render-root)]
             [helix.hooks :as hooks]
@@ -8,7 +7,7 @@
             [keechma.next.helix.core :refer [with-keechma dispatch KeechmaRoot]]
             [app.libs.helix :refer [$ defnc]]
             [app.keechma-app :refer [app]]
-            [app.navigators.main :refer [MainNavigator]]))
+            [app.ui.navigators.main :refer [MainNavigator]]))
 
 (defonce router-state (atom nil))
 
@@ -25,7 +24,6 @@
        ($ MainNavigator))))
 
 (def Root (with-keechma RootRenderer))
-
 
 (defonce app-instance* (atom nil))
 

@@ -1,8 +1,8 @@
-(ns app.screens.home
+(ns app.ui.screens.home
   (:require ["react-native" :refer [Text View TouchableOpacity]]
             [app.libs.helix :refer [$ defnc]]
             [app.libs.navigation :refer [navigate]]
-            [app.components.buttons :as buttons]
+            [app.ui.components.buttons :as buttons]
             [keechma.next.helix.core :refer [with-keechma]]))
 
 (defnc Renderer [props]
