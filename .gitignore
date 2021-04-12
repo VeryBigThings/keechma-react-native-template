@@ -60,4 +60,4 @@ buck-out/
 
 .shadow-cljs/
 .cpcache/
-app/
+/app
