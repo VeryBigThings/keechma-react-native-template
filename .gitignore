@@ -58,6 +58,8 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
+.clj-kondo/.cache 
 .shadow-cljs/
 .cpcache/
 /app
+/js

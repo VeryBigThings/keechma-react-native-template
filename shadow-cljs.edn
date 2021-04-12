@@ -4,7 +4,7 @@
  :builds
  {:app
   {:target :react-native
-   :init-fn app.app/init
+   :init-fn app.main/init
    :devtools {:autoload true}
-   :output-dir "app"
+   :output-dir "js"
    :js-options {:js-package-dirs ["node_modules"]}}}}

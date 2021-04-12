@@ -1,4 +1,4 @@
-{:paths ["src/dev"  "src/main" "src/test"]
+{:paths ["src/dev"  "src/main" "src/test" "src"]
  :deps {org.clojure/clojurescript {:mvn/version "1.10.773"}
         thheller/shadow-cljs      {:mvn/version "2.11.5"}
         lilactown/helix           {:mvn/version "0.0.13"}
