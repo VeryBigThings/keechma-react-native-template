@@ -1,0 +1,10 @@
+;; shadow-cljs configuration
+{:deps true
+
+ :builds
+ {:app
+  {:target :react-native
+   :init-fn app.app/init
+   :devtools {:autoload true}
+   :output-dir "app"
+   :js-options {:js-package-dirs ["node_modules"]}}}}
