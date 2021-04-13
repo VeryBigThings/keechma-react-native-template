@@ -22,3 +22,8 @@ Be sure to compare with the installed version (currently 3.0.1.)
 
 Dark Mode support
 Currently - only light mode is forced.
+
+EXPO support
+This project is not an EXPO managed project, however it is using Expo Unimodules package and so it is enabled to install and use any Expo package.
+See full list here:
+https://docs.expo.io/bare/unimodules-full-list/
