@@ -19,3 +19,6 @@ How to run develop:
 This project uses Tailwind CSS adapted for React Native. Not all classes are available on RN.
 Refer to this list: https://github.com/vadimdemedes/tailwind-rn#supported-utilities
 Be sure to compare with the installed version (currently 3.0.1.)
+
+Dark Mode support
+Currently - only light mode is forced.
