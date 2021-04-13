@@ -1,12 +1,12 @@
 (ns app.keechma-app
   (:require [keechma.next.controllers.dataloader]
             [keechma.next.controllers.entitydb]
-            [app.controllers.test]
+            [app.controllers.app-state]
             [app.controllers.router]))
             
 (def app
   {:keechma/controllers
-   {:test
+   {:app-state
     #:keechma.controller{:params true}
     
     :router
