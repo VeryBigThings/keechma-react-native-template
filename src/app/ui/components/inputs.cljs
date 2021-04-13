@@ -58,7 +58,6 @@
     ($ TextInput
        {:value (str value)
         :placeholder (:placeholder element-props)
-        :placeholderTextColor "rgba(149, 160, 169, 1)"
         :style [input-style]
         :onChangeText #(dispatch props controller :keechma.form.on/change {:value % :attr attr})
         & element-props})))
@@ -82,7 +81,6 @@
           {:value (str value)
            :secureTextEntry password?
            :placeholder (:placeholder element-props)
-           :placeholderTextColor "rgba(149, 160, 169, 1)"
            :style [input-style]
            :onChangeText #(dispatch props controller :keechma.form.on/change {:value % :attr attr})
            & element-props}))))
