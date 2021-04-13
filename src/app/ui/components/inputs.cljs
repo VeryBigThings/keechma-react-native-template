@@ -4,21 +4,16 @@
             [keechma.next.controllers.form :as form]
             [app.libs.helix :refer [$ defnc]]
             [app.libs.validators :refer [get-validator-message]]
+            [app.libs.tailwind :refer [tw]]
 
-            [helix.hooks :as hooks]
-            [oops.core :refer [oget]]))
+            [helix.hooks :as hooks]))
 
-
-            ;[app.tailwind :refer [tw]]
-
-
-(def input-style {:width 150
-                  :borderWidth 0.5
-                  :padding 4
-                  :margin 4
-                  :backgroundColor "white"
-                  :textAlignVertical "center"
-                  :includeFontPadding false})
+;; default styles
+(def input-style [(tw :bg-white :p-1 :m-1)
+                  {:width 150
+                   :borderWidth 0.5
+                   :textAlignVertical "center"
+                   :includeFontPadding false}])
 
 (defn get-element-props
   [default-props props]
@@ -42,9 +37,9 @@
   (let [errors-getter (hooks/use-callback [attr] #(form/get-errors-in % attr))
         errors (use-meta-sub props controller errors-getter)]
     (when-let [errors' (get-in errors [:$errors$ :failed])]
-      ($ View {:style []};(tw :text-red :w-full :font-bold :text-sm)]}
-         (map-indexed (fn [i e] ($ Text {:key i}
-                                         ;:style [(tw :text-red)]} 
+      ($ View {:style [(tw :text-red :w-full :font-bold :text-sm)]}
+         (map-indexed (fn [i e] ($ Text {:key i
+                                         :style [(tw :text-red)]} 
                                    (get-validator-message e)))
                       errors')))))
 

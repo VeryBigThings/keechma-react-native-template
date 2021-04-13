@@ -15,3 +15,7 @@ How to run develop:
 2. for IOS project - `npx pod-install`
 3. `shadow-cljs watch app`
 4. when shadow is done, open new terminal window and run `npx react-native run-ios` or `npx react-native run-android`
+
+This project uses Tailwind CSS adapted for React Native. Not all classes are available on RN.
+Refer to this list: https://github.com/vadimdemedes/tailwind-rn#supported-utilities
+Be sure to compare with the installed version (currently 3.0.1.)
