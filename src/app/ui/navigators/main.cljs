@@ -14,7 +14,8 @@
 
 (defnc MainNavigator []
   ($ (navigator app-stack)
-     {:screenOptions (clj->js screen-options)}
+     {:screenOptions (clj->js screen-options)
+      :initialRouteName "home"}
 
      ($ (screen app-stack)
         {:name "home"
