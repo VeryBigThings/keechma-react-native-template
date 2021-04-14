@@ -1,8 +1,10 @@
 (ns app.main
   (:require ["react-native-safe-area-context" :refer [SafeAreaProvider]]
             ["@react-navigation/native" :refer [NavigationContainer]]
+            ["expo-splash-screen" :as SplashScreen]
             [shadow.react-native :refer (render-root)]
             [helix.hooks :as hooks]
+            [applied-science.js-interop :as j]
             [keechma.next.core :as keechma]
             [keechma.next.helix.core :refer [with-keechma dispatch KeechmaRoot]]
             [app.libs.helix :refer [$ defnc]]
@@ -10,6 +12,8 @@
             [app.ui.navigators.main :refer [MainNavigator]]))
 
 (defonce router-state (atom nil))
+
+(j/call SplashScreen :preventAutoHideAsync)
 
 (defnc RootRenderer [props]
   (let [navigation-ref* (hooks/use-ref nil)]

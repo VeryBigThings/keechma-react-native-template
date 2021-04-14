@@ -34,6 +34,13 @@ This project is not an EXPO managed project, however it is using Expo Unimodules
 See full supported list here:
 https://docs.expo.io/bare/unimodules-full-list/
 
+## Splash Screen
+
+Splash screen is implemented with: https://github.com/expo/expo/tree/master/packages/expo-splash-screen
+With the help of this tool: https://github.com/expo/expo-cli/tree/master/unlinked-packages/configure-splash-screen
+
+Default Splash Screen image is added. To change the image, change the file in `/assets/images/splash.png`.
+
 ## React Navigation
 
 ## Keechma

@@ -18,3 +18,7 @@
 
 (defn back [props]
   (ocall (:navigation props) :goBack))
+
+(defn reset [props target]
+  (ocall (:navigation props) :reset (clj->js {:index 0 :routes [{:name target}]})))
+

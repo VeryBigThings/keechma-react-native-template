@@ -2,6 +2,7 @@
   (:require [app.libs.navigation :refer [create-stack-navigator screen navigator]]
             [app.libs.helix :refer [defnc $]]
             [app.ui.screens.home :refer [Home]]
+            [app.ui.screens.splash :refer [Splash]]
             [app.ui.screens.settings :refer [Settings]]))
 
 (def app-stack (create-stack-navigator))
@@ -15,7 +16,12 @@
 (defnc MainNavigator []
   ($ (navigator app-stack)
      {:screenOptions (clj->js screen-options)
-      :initialRouteName "home"}
+      :initialRouteName "splash"}
+
+     ($ (screen app-stack)
+        {:name "splash"
+         :component Splash
+         :options #js{:headerShown false}})
 
      ($ (screen app-stack)
         {:name "home"
