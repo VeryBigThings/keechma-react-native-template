@@ -1,10 +1,11 @@
 (ns app.ui.screens.settings
   (:require ["react-native" :refer [Text View]]
             [app.libs.helix :refer [$ defnc]]
-            [app.libs.tailwind :refer [tw]]
             [app.ui.components.inputs :refer [wrapped-input]]
             [app.ui.components.buttons :as buttons]
-            [keechma.next.helix.core :refer [with-keechma]]))
+            [keechma.next.helix.core :refer [with-keechma]]
+            [applied-science.js-interop :as j]
+            ["@sentry/react-native" :as Sentry]))
             
 
 
@@ -24,7 +25,9 @@
                     :input/attr "password"
                     :placeholder "Password"})
                     
-   ($ buttons/Primary {:label "Submit"})))
+   ($ buttons/Primary {:label "Submit"})
+    
+   ($ buttons/Primary {:label "Sentry" :onPress #(j/call Sentry :nativeCrash)})))
                      
 
 
