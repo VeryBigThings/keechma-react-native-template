@@ -3,11 +3,12 @@
             [app.libs.helix :refer [$ defnc]]
             [app.libs.navigation :refer [navigate]]
             [app.ui.components.buttons :as buttons]
+            [app.ui.components.text :as text]
             [keechma.next.helix.core :refer [with-keechma]]))
 
 (defnc Renderer [props]
  ($ View {:style {:flex 1 :justifyContent "center" :alignItems "center"}} 
-     ($ Text {:style {:color "black"}} "Hello from Keechma React Native app home!")
+     ($ text/P {:style {:color "black"}} "Hello from Keechma React Native app home!")
      ($ TouchableOpacity {:onPress #(navigate props "settings")}
       ($ Text {:style {:padding 10 :backgroundColor "white" :margin 10}} "Go To Settings"))
 

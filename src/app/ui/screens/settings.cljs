@@ -1,17 +1,17 @@
 (ns app.ui.screens.settings
-  (:require ["react-native" :refer [Text View]]
+  (:require ["react-native" :refer [View]]
             [app.libs.helix :refer [$ defnc]]
             [app.ui.components.inputs :refer [wrapped-input]]
             [app.ui.components.buttons :as buttons]
+            [app.ui.components.text :as text]
             [keechma.next.helix.core :refer [with-keechma]]
             [applied-science.js-interop :as j]
             ["@sentry/react-native" :as Sentry]))
-            
 
 
 (defnc Renderer []
  ($ View {:style {:flex 1 :justifyContent "center" :alignItems "center"}}
-    ($ Text {:style {:color "black" :margin 10}} "Hi from settings")
+    ($ text/H3 {:style {:color "black" :margin 10}} "Hi from settings")
 
     (wrapped-input {:input/type :text
                     :input/attr "name"

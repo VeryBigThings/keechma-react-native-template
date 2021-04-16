@@ -5,15 +5,20 @@
 	};
 	objectVersion = 54;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* keechmaRNAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* keechmaRNAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4EA67C052628B572001614FD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA67BE62628B570001614FD /* Montserrat-Regular.ttf */; };
+		4EA67C0B2628B572001614FD /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA67BEC2628B571001614FD /* Montserrat-Bold.ttf */; };
+		4EA67C152628B572001614FD /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA67BF62628B572001614FD /* NunitoSans-Bold.ttf */; };
+		4EA67C162628B572001614FD /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EA67BF72628B572001614FD /* NunitoSans-Regular.ttf */; };
 		6383CA9F5ACC4F2F9B2A2955 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE9094BAC8545C581D9ED8E /* SplashScreen.storyboard */; };
-		7ADFDFBA403590CB7853B06A /* libPods-keechmaRNApp-keechmaRNAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35666BA7CC34618DB20C463F /* libPods-keechmaRNApp-keechmaRNAppTests.a */; };
+		6387854755566D8E96C35588 /* libPods-keechmaRNApp-keechmaRNAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6BA9BC12E03A09ED1312C1 /* libPods-keechmaRNApp-keechmaRNAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CD92C3E0B3AF889EBD808498 /* libPods-keechmaRNApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40205FA66D4260119BF02394 /* libPods-keechmaRNApp.a */; };
+		E036D77F10CCC15BC6E82AFB /* libPods-keechmaRNApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E01F41AC5AA4A724458334A /* libPods-keechmaRNApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +42,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = keechmaRNApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = keechmaRNApp/main.m; sourceTree = "<group>"; };
 		2866D49E2928E3991C21E8E5 /* Pods-keechmaRNApp-keechmaRNAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keechmaRNApp-keechmaRNAppTests.release.xcconfig"; path = "Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		35666BA7CC34618DB20C463F /* libPods-keechmaRNApp-keechmaRNAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keechmaRNApp-keechmaRNAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40205FA66D4260119BF02394 /* libPods-keechmaRNApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keechmaRNApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6BA9BC12E03A09ED1312C1 /* libPods-keechmaRNApp-keechmaRNAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keechmaRNApp-keechmaRNAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA67BE62628B570001614FD /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		4EA67BEC2628B571001614FD /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		4EA67BF62628B572001614FD /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Bold.ttf"; path = "../assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		4EA67BF72628B572001614FD /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Regular.ttf"; path = "../assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 		534FEB7DAD8CCA772F7AA447 /* Pods-keechmaRNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keechmaRNApp.release.xcconfig"; path = "Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp.release.xcconfig"; sourceTree = "<group>"; };
 		5400F73F18A1DDE6B5535EBC /* Pods-keechmaRNApp-keechmaRNAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keechmaRNApp-keechmaRNAppTests.debug.xcconfig"; path = "Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C152387B0FFB2BC352410E5 /* Pods-keechmaRNApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keechmaRNApp.debug.xcconfig"; path = "Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7E01F41AC5AA4A724458334A /* libPods-keechmaRNApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-keechmaRNApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = keechmaRNApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FDE9094BAC8545C581D9ED8E /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = keechmaRNApp/SplashScreen.storyboard; sourceTree = "<group>"; };
@@ -52,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ADFDFBA403590CB7853B06A /* libPods-keechmaRNApp-keechmaRNAppTests.a in Frameworks */,
+				6387854755566D8E96C35588 /* libPods-keechmaRNApp-keechmaRNAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD92C3E0B3AF889EBD808498 /* libPods-keechmaRNApp.a in Frameworks */,
+				E036D77F10CCC15BC6E82AFB /* libPods-keechmaRNApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,7 @@
 		13B07FAE1A68108700A75B9A /* keechmaRNApp */ = {
 			isa = PBXGroup;
 			children = (
+				4EA67BD72628B54C001614FD /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -102,10 +112,21 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				40205FA66D4260119BF02394 /* libPods-keechmaRNApp.a */,
-				35666BA7CC34618DB20C463F /* libPods-keechmaRNApp-keechmaRNAppTests.a */,
+				7E01F41AC5AA4A724458334A /* libPods-keechmaRNApp.a */,
+				4D6BA9BC12E03A09ED1312C1 /* libPods-keechmaRNApp-keechmaRNAppTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA67BD72628B54C001614FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4EA67BEC2628B571001614FD /* Montserrat-Bold.ttf */,
+				4EA67BE62628B570001614FD /* Montserrat-Regular.ttf */,
+				4EA67BF62628B572001614FD /* NunitoSans-Bold.ttf */,
+				4EA67BF72628B572001614FD /* NunitoSans-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		6396DED40D29B871EF3E413D /* Pods */ = {
@@ -161,8 +182,9 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				527DB59F6B12996484E8804C /* [CP] Embed Pods Frameworks */,
+				527DB59F6B12996484E8804C /* [CP] Copy Pods Resources */,
 				E765872A842A0588C032EFA3 /* [CP] Copy Pods Resources */,
+				9C36255D67C076ED92E280BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,14 +200,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "keechmaRNApp" */;
 			buildPhases = (
-				2E94ACE5E92D6B2F881841C2 /* [CP] Check Pods Manifest.lock */,
-				FD10A7F022414F080027D42C /* Start Packager */,
+				105B17C3B6072400CD53B625 /* [CP] Check Pods Manifest.lock */,
+				2E94ACE5E92D6B2F881841C2 /* [CP] Embed Pods Frameworks */,
+				FD10A7F022414F080027D42C /* [CP] Copy Pods Resources */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A78DE24CB1D153CBDF9155FB /* [CP] Embed Pods Frameworks */,
-				27B5E313DC2FC5F9B17F3DB5 /* [CP] Copy Pods Resources */,
 				586D4800F9C749759E8A12D9 /* Upload Debug Symbols to Sentry */,
 			);
 			buildRules = (
@@ -245,7 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA67C0B2628B572001614FD /* Montserrat-Bold.ttf in Resources */,
+				4EA67C162628B572001614FD /* NunitoSans-Regular.ttf in Resources */,
+				4EA67C152628B572001614FD /* NunitoSans-Bold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				4EA67C052628B572001614FD /* Montserrat-Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				6383CA9F5ACC4F2F9B2A2955 /* SplashScreen.storyboard in Resources */,
 			);
@@ -268,7 +293,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export SENTRY_PROPERTIES=sentry.properties\nexport EXTRA_PACKAGER_ARGS=\"--sourcemap-output $DERIVED_FILE_DIR/main.jsbundle.map\"\nset -e\n\nexport NODE_BINARY=node\n../node_modules/@sentry/cli/bin/sentry-cli react-native xcode ../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		1BB4239B64EF91CAE42AFEE2 /* [CP] Check Pods Manifest.lock */ = {
+		105B17C3B6072400CD53B625 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,24 +315,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27B5E313DC2FC5F9B17F3DB5 /* [CP] Copy Pods Resources */ = {
+		1BB4239B64EF91CAE42AFEE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-keechmaRNApp-keechmaRNAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2E94ACE5E92D6B2F881841C2 /* [CP] Check Pods Manifest.lock */ = {
+		2E94ACE5E92D6B2F881841C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,7 +354,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		527DB59F6B12996484E8804C /* [CP] Embed Pods Frameworks */ = {
+		527DB59F6B12996484E8804C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,21 +371,35 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A78DE24CB1D153CBDF9155FB /* [CP] Embed Pods Frameworks */ = {
+		586D4800F9C749759E8A12D9 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export SENTRY_PROPERTIES=sentry.properties\n../node_modules/@sentry/cli/bin/sentry-cli upload-dsym";
+		};
+		9C36255D67C076ED92E280BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E765872A842A0588C032EFA3 /* [CP] Copy Pods Resources */ = {
@@ -375,7 +419,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp-keechmaRNAppTests/Pods-keechmaRNApp-keechmaRNAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD10A7F022414F080027D42C /* Start Packager */ = {
+		FD10A7F022414F080027D42C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,20 +435,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-keechmaRNApp/Pods-keechmaRNApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		586D4800F9C749759E8A12D9 /* Upload Debug Symbols to Sentry */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Upload Debug Symbols to Sentry";
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "export SENTRY_PROPERTIES=sentry.properties\n../node_modules/@sentry/cli/bin/sentry-cli upload-dsym";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -497,6 +527,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZG5SRR8MDR;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/../../node_modules/expo-splash-screen/ios\"/**",
+					"\"${PODS_ROOT}/OpenSSL-Universal/Frameworks\"/**",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/EXSplashScreen\"/**",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL\"/**",
+				);
 				INFOPLIST_FILE = keechmaRNApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
