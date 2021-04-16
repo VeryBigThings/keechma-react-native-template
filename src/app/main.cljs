@@ -23,7 +23,8 @@
                          (dispatch props :router :route-change state))
         :onReady #(dispatch props :router :register-navigator @navigation-ref*)
         :ref navigation-ref*
-        :initialState @router-state}
+        :initialState @router-state
+        :theme (clj->js {:colors {:background "#f9f9f9"}})}
 
        ($ MainNavigator))))
 
