@@ -18,6 +18,15 @@ How to run develop:
 3. `shadow-cljs watch app`
 4. when shadow is done, open new terminal window and run `npx react-native run-ios` or `npx react-native run-android`
 
+## Project Rename
+To rename the project from default template name, use this package:
+https://github.com/junedomingo/react-native-rename
+
+Run `npx react-native-rename "Travel App" -b com.junedomingo.travelapp`
+
+Rename the root component name in `main.cljs`
+Use XCode to update IOS bundle identifier. 
+
 ## Tailwind
 
 This project uses Tailwind CSS adapted for React Native. Not all classes are available on RN.
