@@ -6,5 +6,6 @@
   {:target :react-native
    :init-fn app.main/init
    :devtools {:autoload true}
+   :compiler-options {:source-map false} ;; this removes the SHADOW_ENV.evalLoad(...) wall of string problem in Metro console. Not critical, but annoying. 
    :output-dir "js"
    :js-options {:js-package-dirs ["node_modules"]}}}}
